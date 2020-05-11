@@ -1,0 +1,7 @@
+# IDE Related files
+.vscode/*
+.idea/
+
+# Mac stuff
+.DS_Store
+*/.DS_Store
