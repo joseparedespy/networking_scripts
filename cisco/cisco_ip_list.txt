@@ -1,0 +1,2 @@
+sbx-nxos-mgmt.cisco.com
+# 10.107.6.1 <-- este va a ser ignorado
