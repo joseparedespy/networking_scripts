@@ -1,0 +1,14 @@
+# CISCO COMMANDS LIST
+show running-config
+# show startup-config
+# show version
+# show ip access-list
+# show ip route
+show ip interface brief
+# show arp
+# show protocols
+# % Invalid input detected at '^' marker.
+# show cdp neighbors liSP Filter
+# % Incomplete command.
+# show cdp neighbors liSP
+
