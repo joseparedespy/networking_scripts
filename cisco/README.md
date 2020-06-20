@@ -23,7 +23,6 @@ Tiene que ser la dirección donde creamos el entorno
 
 ```py
 $ pip install netmiko
-$ pip install colorama
 ```
 
 Para desactivar entorno
@@ -33,18 +32,22 @@ $ deactivate
 
 ### Modificar según necesidad
 
-Modificar el archivo cisco_ip_list.txt, ingresando las ip's de los dispositivos cada ip en una linea diferente.
+Modificar el archivo cisco_ip_list.py, ingresando los datos de tus dispositivos.
 
-Para mayor seguridad podemos hacer que el script sea dinámico y que solicite el usuario y contraseña del dispositivo en cada iteración. 
-De momento solo se ingresa dentro del script y se supone que todos los equipos comparten las mismas credenciales.
+Modificar el archivo cisco_command_list.txt, ingresando los comandos, uno debajo de otro en cada linea.
+
+Para mayor seguridad podemos hacer que el script sea dinámico y que solicite el usuario y contraseña del dispositivo.
+De momento solo se ingresa dentro del script.
 
 Modificar ruta donde se descargará el archivo de configuración.
+Variable ```parentPath```
 
 #### Datos de prueba
 
 Utilizamos las credeciales de un router NX-OSv 9000 extraidos de un lab del sandbox devnet de cisco [Link](https://devnetsandbox.cisco.com/RM/Diagram/Index/dae38dd8-e8ee-4d7c-a21c-6036bed7a804?diagramType=Topology) 
 
-Nexus 9000v Host : sbx-nxos-mgmt.cisco.com
+Nexus 9000v 
+* Host : sbx-nxos-mgmt.cisco.com
 * SSH Port: 8181
 * NETCONF Port: 10000
 * NXAPI Ports: 80 (http) & 443 (HTTPS)
